@@ -18,6 +18,42 @@
 <h1 class="my-5 container">ADMIN PAGE: All Questions</h1>
 
 <div class="jumbotron container">
+    <!-- Add code for checkbox selection menu here -->
+    <div>
+        <h3>Filter questions:</h3>
+        <label>Subject:</label>
+        <div id="subject-filter">
+            <input type="checkbox" id="subject-1" name="subject-1" value="1">
+            <label for="subject-1">Subject 1</label><br>
+            <input type="checkbox" id="subject-2" name="subject-2" value="2">
+            <label for="subject-2">Subject 2</label><br>
+            <input type="checkbox" id="subject-3" name="subject-3" value="3">
+            <label for="subject-3">Subject 3</label><br>
+            <input type="checkbox" id="subject-4" name="subject-4" value="4">
+            <label for="subject-4">Subject 4</label><br>
+            <input type="checkbox" id="subject-5" name="subject-5" value="5">
+            <label for="subject-5">Subject 5</label><br>
+            <input type="checkbox" id="subject-6" name="subject-6" value="6">
+            <label for="subject-6">Subject 6</label><br>
+            <input type="checkbox" id="subject-7" name="subject-7" value="7">
+            <label for="subject-7">Subject 7</label><br>
+            <input type="checkbox" id="subject-8" name="subject-8" value="8">
+            <label for="subject-8">Subject 8</label><br>
+            <input type="checkbox" id="subject-9" name="subject-9" value="9">
+            <label for="subject-9">Subject 9</label><br>
+            <input type="checkbox" id="subject-10" name="subject-10" value="10">
+            <label for="subject-10">Subject 10</label><br>
+        </div>
+        <label>Unit:</label>
+        <div id="unit-filter">
+            <!-- Add units for selected subject here -->
+        </div>
+        <label>Tag:</label>
+        <div id="tag-filter">
+            <!-- Add tags for selected unit here -->
+        </div>
+        <button id="filter-button">Filter</button>
+    </div>
     <div class="grid">
         <% for (let question of questions) { %>
         <div class="card g-col-4 p-3 m-0 bg-light">
